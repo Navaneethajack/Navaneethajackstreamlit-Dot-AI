@@ -1,15 +1,10 @@
-# Core dependencies
 streamlit
 langchain
 langchain-community
-faiss-cpu
-transformers  # Required for Flan-T5
+transformers
 sentence-transformers
+faiss-cpu
 torch
-
-# Document loaders
-PyPDF2
+pypdf
 python-docx
-
-# Optional: Pin specific model downloads to cache them
-# Will download Flan-T5 on first run
+docx2txt
